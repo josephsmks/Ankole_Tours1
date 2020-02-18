@@ -49,4 +49,16 @@
 
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <TextView
+        android:id="@+id/mystring"
+        android:layout_width="237dp"
+        android:layout_height="55dp"
+        android:text="@string/God_name"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="363dp"
+        tools:ignore="MissingConstraints"
+
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
