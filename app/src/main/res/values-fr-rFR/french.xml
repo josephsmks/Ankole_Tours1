@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Ankole Tours</string>
-    <string name="God_name"> God_name</string>
-    <string name="Dog">Dog</string>
-    <string name="Cat">Cat</string>
-    <string name="Horse">Horse</string>
-    <string name="Booking">Book</string>
-    <string name="cleaning">Clean</string>
+    <string name="God_name"> Dieu_Nom</string>
+    <string name="Dog">chienne</string>
+    <string name="Cat">Chatte</string>
+    <string name="Horse">Jument</string>
+    <string name="Booking">Le livre</string>
+    <string name="cleaning">Nettoyer</string>
 </resources>
