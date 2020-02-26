@@ -7,4 +7,5 @@
     <string name="Horse">Jument</string>
     <string name="Booking">Le livre</string>
     <string name="cleaning">Nettoyer</string>
+    <string name="action_settings">Regles</string>
 </resources>
