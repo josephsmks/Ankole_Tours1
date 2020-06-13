@@ -13,14 +13,14 @@
         android:id="@+id/mobile_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints"></ListView>
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Message"
+        android:text="@string/message"
         android:textAlignment="center"
         android:textColor="#a52d"
         android:textSize="30sp"
@@ -40,7 +40,7 @@
         android:inputType="textPersonName"
         android:text="@string/enter_message_here"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
+        tools:ignore="LabelFor,MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         android:autofillHints="Enter text" />
 
@@ -96,7 +96,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:onClick="alarm"
         android:text="@string/startalarm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.26"

@@ -8,4 +8,9 @@
     <string name="Booking">Le livre</string>
     <string name="cleaning">Nettoyer</string>
     <string name="action_settings">Regles</string>
+    <string name="send">envoyer</string>
+    <string name="enter_message_here">entrez le message ici</string>
+    <string name="startalarm">déclencher l,alarme</string>
+    <string name="message">message</string>
+
 </resources>
