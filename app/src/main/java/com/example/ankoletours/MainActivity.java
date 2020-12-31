@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
 
     }
-    @SuppressLint("IntentReset")
+     @SuppressLint("IntentReset")
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 

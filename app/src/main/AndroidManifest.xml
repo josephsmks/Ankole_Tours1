@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ankoletours">
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.SET_ALARM"/>
+    //
+    <uses-permission android:name="android.permission.CALL_PHONE"/>//Allows the phone to make calls
+    <uses-permission android:name="android.permission.VIBRATE"/> // Allows the phone to vibrate for a broadcast
+    <uses-permission android:name="android.permission.SET_ALARM"/> // Allows the phone to trigger Alarms
 
 
     <application
@@ -13,13 +14,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+       // Enabling broadcast receivers to trigger
         <receiver
             android:name=".MyReceiver"
             android:enabled="true"
             android:exported="true"></receiver>
 
+
+        // this list view shows lists of tourist in recycler View format
         <activity android:name=".activity_listview" />
+
+        // interface that allows a user book for booking activities
         <activity android:name=".Booking" />
+
         <activity android:name=".cleaning" />
         <activity android:name=".screentwo" />
         <activity android:name=".screenone" />
